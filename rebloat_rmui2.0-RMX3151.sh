@@ -19,7 +19,7 @@ echo "Reinstalling google news"
 adb shell cmd package install-existing --user 0 com.google.android.apps.magazines
 
 echo "Enabling heytap cloud"
-adb shell pm enable-user --user 0 com.heytap.cloud
+adb shell pm enable --user 0 com.heytap.cloud
 
 echo "Reinstalling gamecentre"
 adb shell cmd package install-existing --user 0 com.nearme.gamecenter
@@ -61,7 +61,7 @@ echo "Reinstalling sound recorder"
 adb shell cmd package install-existing --user 0 com.coloros.soundrecorder
 
 echo "Enabling themestore"
-adb shell pm enable-user --user 0 com.heytap.themestore
+adb shell pm enable --user 0 com.heytap.themestore
 
 echo "Reinstalling weather"
 adb shell cmd package install-existing --user 0 com.coloros.weather2
@@ -76,7 +76,7 @@ echo "Reinstalling filemanager"
 adb shell cmd package install-existing --user 0 com.coloros.filemanager
 
 echo "Enabling clock"
-adb shell pm enable-user --user 0 com.coloros.alarmclock
+adb shell pm enable --user 0 com.coloros.alarmclock
 
 echo "Reinstalling music"
 adb shell cmd package install-existing --user 0 com.heytap.music
