@@ -47,7 +47,7 @@ Tested on Realme 8i but should work on any device running realme ui 2.0
 1. Go to Settings ==> About phone 
 2. Tap Version (Baseband & Kernel) then tap build number 7 Times 
 3. Now go to settings ==> Additional Settings ==> Developer options 
-4. Enable > USB Debugging and USB debugging option 
+4. Enable > USB Debugging option 
 
 
 ### For Linux and macOSX Users ###
@@ -55,7 +55,7 @@ Step 1 : Make sure You have Installed ADB, If not just [click here](https://www.
 
 Step 2 : clone this Repo And Navigate to the location
 
-```git clone https://github.com/DrtSinX98/Debloat.git cd Debloat```  
+```git clone https://github.com/DrtSinX98/Debloat.git && cd Debloat```  
 
 Step 3 : Now execute
 ```bash debloat_rmui2.0-RMX3151.sh```  
@@ -74,5 +74,6 @@ Step 4 : Then type
 
 ### Note ###
 
-*** If you want to undo the changes just run the rebloat scripts ***
-*** Before doing any system update I'll recommend you to rebloat it and then debloat again after update just to be safe. ***
+***If you want to undo the changes just run the rebloat scripts***
+
+***Before doing any system update I'll recommend you to rebloat it and then debloat again after update just to be safe.***
