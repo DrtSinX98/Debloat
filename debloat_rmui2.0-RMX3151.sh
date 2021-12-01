@@ -46,7 +46,7 @@ echo "Uninstalling clone phone"
 adb shell pm uninstall -k --user 0 com.coloros.backuprestore
 
 echo "Uninstalling hot apps"
-adb shell pm uninstall -k --user 0 com.oppo.cs
+adb shell pm uninstall -k --user 0 com.opos.cs
 
 echo "Uninstalling kids space"
 adb shell pm uninstall -k --user 0 com.coloros.childrenspace

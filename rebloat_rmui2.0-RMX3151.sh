@@ -46,7 +46,7 @@ echo "Reinstalling clone phone"
 adb shell cmd package install-existing --user 0 com.coloros.backuprestore
 
 echo "Reinstalling hot apps"
-adb shell cmd package install-existing --user 0 com.oppo.cs
+adb shell cmd package install-existing --user 0 com.opos.cs
 
 echo "Reinstalling kids space"
 adb shell cmd package install-existing --user 0 com.coloros.childrenspace
