@@ -24,6 +24,9 @@ adb shell pm disable-user --user 0 com.heytap.cloud
 echo "Uninstalling gamecentre"
 adb shell pm uninstall -k --user 0 com.nearme.gamecenter
 
+echo "Uninstalling games"
+adb shell pm uninstall -k --user 0 com.oplus.games
+
 echo "Uninstalling phonemanager"
 adb shell pm uninstall -k --user 0 com.coloros.phonemanager
 
